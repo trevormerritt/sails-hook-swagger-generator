@@ -7,6 +7,19 @@ module.exports = {
 
     },
     find: function (req, res) {
-        
-    }
+
+    },
+    actionToBeExcluded: function (req, res) {
+
+    },
+    swagger: {
+      actions: {
+        allActions: {
+          tags: ['No Model Example'],
+        },
+        actionToBeExcluded: {
+          exclude: true,
+        }
+      },
+    },
 };
